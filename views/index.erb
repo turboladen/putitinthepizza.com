@@ -1,180 +1,132 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Uhhh put it in the pizza</title>
-    <link href="css/theme.css" rel="stylesheet" type="text/css" media="screen" />
+<header id="page_header">
+  <h1>put it in the pizza.</h1>
+  <p>(click a pic)</p>
+</header>
 
-    <!-- Start of Google Analytics -->
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-20076827-1']);
-      _gaq.push(['_trackPageview']);
+<article id="page_content">
+  <!-- JS here to prevent 'flash' of all the default audio players -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  <script type="text/javascript" charset="utf-8">
+      $(function() {
+          $("audio").removeAttr("controls").each(function(i, audioElement) {
+              var audio = $(this);
+              var that = this; //closure to keep reference to current audio tag
+              $("#doc").append($('<button>'+audio.attr("title")+'</button>').click(function() {
+                  that.play();
+              }));
+          });
+      });
+  </script>
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
+  <audio id="gimme_pizza" preload="auto" autobuffer>
+    <source src="audio/gimme_pizza.mp3" type="audio/mpeg" />
+    <source src="audio/gimme_pizza.ogg" type="audio/ogg" />
+    <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
+  </audio>
+  <audio id="hey" preload="auto" autobuffer>
+    <source src="audio/hey_are_you_ready_to_play.mp3" type="audio/mpeg" />
+    <source src="audio/hey_are_you_ready_to_play.ogg" type="audio/ogg" />
+    <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
+  </audio>
+  <audio id="p_i_z_z_a" preload="auto" autobuffer>
+    <source src="audio/p-i-z-z-a.ogg" type="audio/ogg" />
+    <source src="audio/p-i-z-z-a.mp3" type="audio/mpeg" />
+    <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
+  </audio>
+  <audio id="um" preload="auto" autobuffer>
+    <source src="audio/um_did_i_happen_to_say.mp3" type="audio/mpeg" />
+    <source src="audio/um_did_i_happen_to_say.ogg" type="audio/ogg" />
+    <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
+  </audio>
+  <audio id="whipped_cream" preload="auto" autobuffer>
+    <source src="audio/whipped_cream_pourin_like_waterfalls.mp3" type="audio/mpeg" />
+    <source src="audio/whipped_cream_pourin_like_waterfalls.ogg" type="audio/ogg" />
+    <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
+  </audio>
+  <audio id="pasta" preload="auto" autobuffer>
+    <source src="audio/pasta.mp3" type="audio/mpeg" />
+    <source src="audio/pasta.ogg" type="audio/ogg" />
+    <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
+  </audio>
+  <audio id="uh" preload="auto" autobuffer>
+    <source src="audio/uh.mp3" type="audio/mpeg" />
+    <source src="audio/uh.ogg" type="audio/ogg" />
+    <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
+  </audio>
+  <audio id="finger_lickin" preload="auto" autobuffer>
+    <source src="audio/finger_lickin.mp3" type="audio/mpeg" />
+    <source src="audio/finger_lickin.ogg" type="audio/ogg" />
+    <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
+  </audio>
+  <audio id="pizza_pie" preload="auto" autobuffer>
+    <source src="audio/pizza_pie.mp3" type="audio/mpeg" />
+    <source src="audio/pizza_pie.ogg" type="audio/ogg" />
+    <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
+  </audio>
+  <audio id="caramel" preload="auto" autobuffer>
+    <source src="audio/caramel.mp3" type="audio/mpeg" />
+    <source src="audio/caramel.ogg" type="audio/ogg" />
+    <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
+  </audio>
+  <audio id="spaghetti" preload="auto" autobuffer>
+    <source src="audio/spaghetti.mp3" type="audio/mpeg" />
+    <source src="audio/spaghetti.ogg" type="audio/ogg" />
+    <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
+  </audio>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="description" content="HTML5 Soundboard of Olsen Twins' Gimme Pizza Slow video from youtube." />
-    <meta name="keywords" content="gimme,pizza,slow,youtube,olsen,twins,soundboard,html5,whipped,cream" />
+  <table>
+    <tr>
+      <td>
+        <img src="images/thumbs/gimme_pizza.jpg" onclick="document.getElementById('gimme_pizza').play()">
+        <p>gimme pizza</p>
+      </td>
+      <td>
+        <img src="images/thumbs/are_you_ready_to_play.jpg" onclick="document.getElementById('hey').play()">
+        <p>are you ready?</p>
+      </td>
+      <td>
+        <img src="images/thumbs/p_i_z_z_a.jpg" onclick="document.getElementById('p_i_z_z_a').play()">
+        <p>p-i-z-z-a</p>
+      </td>
+      <td>
+        <img src="images/thumbs/um.jpg" onclick="document.getElementById('um').play()">
+        <p>did i happen to say?</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="images/thumbs/finger_lickin.jpg" onclick="document.getElementById('finger_lickin').play()">
+        <p>finger lickin</p>
+      </td>
+      <td>
+        <img src="images/thumbs/whipped_cream.jpg" onclick="document.getElementById('whipped_cream').play()">
+        <p>whipped cream pourin</p>
+      </td>
+      <td>
+        <img src="images/thumbs/pizza_pie.jpg" onclick="document.getElementById('pizza_pie').play()">
+        <p>fly fly pizza pie</p>
+      </td>
+      <td>
+        <img src="images/thumbs/caramel.jpg" onclick="document.getElementById('caramel').play()">
+        <p>caramel coconut cream</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="images/thumbs/spaghetti.jpg" onclick="document.getElementById('spaghetti').play()">
+        <p>1 2 3 4 5 spaghetti</p>
+      </td>
+      <td>
+        <img src="images/thumbs/pasta.jpg" onclick="document.getElementById('pasta').play()">
+        <p>pasta, fishsticks, ketchup, meatloaf</p>
+      </td>
+      <td>
+        <img src="images/thumbs/uh.jpg" onclick="document.getElementById('uh').play()">
+        <p>uhh... put it in the pizza</p>
+      </td>
+      <td></td>
+    </tr>
+  </table>
+</article>
 
-    <link rel="icon" type="image/jpeg" href="favicon.jpg" />
-</head>
-<body>
-    <!-- Start of StatCounter Code -->
-    <script type="text/javascript">
-        var sc_project=6441481;
-        var sc_invisible=1;
-        var sc_security="69a7f2bf";
-    </script>
-
-    <script type="text/javascript" src="http://www.statcounter.com/counter/counter.js">
-    </script>
-    <noscript>
-        <div class="statcounter">
-            <a title="tumblr page counter" href="http://statcounter.com/tumblr/" target="_blank">
-                <img class="statcounter" src="http://c.statcounter.com/6441481/0/69a7f2bf/1/"
-                     alt="tumblr page counter" >
-
-                     </a>
-        </div>
-    </noscript>
-    <!-- End of StatCounter Code -->
-
-    <header id="page_header">
-        <h1>put it in the pizza.</h1>
-        <p>(click a pic)</p>
-    </header>
-
-    <article id="page_content">
-        <!-- JS here to prevent 'flash' of all the default audio players -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-        <script type="text/javascript" charset="utf-8">
-           $(function() {
-                $("audio").removeAttr("controls").each(function(i, audioElement) {
-                    var audio = $(this);
-                    var that = this; //closure to keep reference to current audio tag
-                    $("#doc").append($('<button>'+audio.attr("title")+'</button>').click(function() {
-                        that.play();
-                    }));
-                });
-            });
-        </script>
-
-        <audio id="gimme_pizza" preload="auto" autobuffer>
-            <source src="audio/gimme_pizza.mp3" type="audio/mpeg" />
-            <source src="audio/gimme_pizza.ogg" type="audio/ogg" />
-            <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
-        </audio>
-        <audio id="hey" preload="auto" autobuffer>
-            <source src="audio/hey_are_you_ready_to_play.mp3" type="audio/mpeg" />
-            <source src="audio/hey_are_you_ready_to_play.ogg" type="audio/ogg" />
-            <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
-        </audio>
-        <audio id="p_i_z_z_a" preload="auto" autobuffer>
-            <source src="audio/p-i-z-z-a.ogg" type="audio/ogg" />
-            <source src="audio/p-i-z-z-a.mp3" type="audio/mpeg" />
-            <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
-        </audio>
-        <audio id="um" preload="auto" autobuffer>
-            <source src="audio/um_did_i_happen_to_say.mp3" type="audio/mpeg" />
-            <source src="audio/um_did_i_happen_to_say.ogg" type="audio/ogg" />
-            <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
-        </audio>
-        <audio id="whipped_cream" preload="auto" autobuffer>
-            <source src="audio/whipped_cream_pourin_like_waterfalls.mp3" type="audio/mpeg" />
-            <source src="audio/whipped_cream_pourin_like_waterfalls.ogg" type="audio/ogg" />
-            <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
-        </audio>
-        <audio id="pasta" preload="auto" autobuffer>
-            <source src="audio/pasta.mp3" type="audio/mpeg" />
-            <source src="audio/pasta.ogg" type="audio/ogg" />
-            <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
-        </audio>
-        <audio id="uh" preload="auto" autobuffer>
-            <source src="audio/uh.mp3" type="audio/mpeg" />
-            <source src="audio/uh.ogg" type="audio/ogg" />
-            <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
-        </audio>
-        <audio id="finger_lickin" preload="auto" autobuffer>
-            <source src="audio/finger_lickin.mp3" type="audio/mpeg" />
-            <source src="audio/finger_lickin.ogg" type="audio/ogg" />
-            <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
-        </audio>
-        <audio id="pizza_pie" preload="auto" autobuffer>
-            <source src="audio/pizza_pie.mp3" type="audio/mpeg" />
-            <source src="audio/pizza_pie.ogg" type="audio/ogg" />
-            <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
-        </audio>
-        <audio id="caramel" preload="auto" autobuffer>
-            <source src="audio/caramel.mp3" type="audio/mpeg" />
-            <source src="audio/caramel.ogg" type="audio/ogg" />
-            <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
-        </audio>
-        <audio id="spaghetti" preload="auto" autobuffer>
-            <source src="audio/spaghetti.mp3" type="audio/mpeg" />
-            <source src="audio/spaghetti.ogg" type="audio/ogg" />
-            <p>can't put it in the pizza.  you need an <a href="http://thebrowsereview.com/html5/html5-audio-tag-and-format-support/">html5 browser</a></p>
-        </audio>
-
-        <table>
-            <tr>
-                <td>
-                    <img src="images/thumbs/gimme_pizza.jpg" onclick="document.getElementById('gimme_pizza').play()">
-                    <p>gimme pizza</p>
-                </td>
-                <td>
-                    <img src="images/thumbs/are_you_ready_to_play.jpg" onclick="document.getElementById('hey').play()">
-                    <p>are you ready?</p>
-                </td>
-                <td>
-                    <img src="images/thumbs/p_i_z_z_a.jpg" onclick="document.getElementById('p_i_z_z_a').play()">
-                    <p>p-i-z-z-a</p>
-                </td>
-                <td>
-                    <img src="images/thumbs/um.jpg" onclick="document.getElementById('um').play()">
-                    <p>did i happen to say?</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="images/thumbs/finger_lickin.jpg" onclick="document.getElementById('finger_lickin').play()">
-                    <p>finger lickin</p>
-                </td>
-                <td>
-                    <img src="images/thumbs/whipped_cream.jpg" onclick="document.getElementById('whipped_cream').play()">
-                    <p>whipped cream pourin</p>
-                </td>
-                <td>
-                    <img src="images/thumbs/pizza_pie.jpg" onclick="document.getElementById('pizza_pie').play()">
-                    <p>fly fly pizza pie</p>
-                </td>
-                <td>
-                    <img src="images/thumbs/caramel.jpg" onclick="document.getElementById('caramel').play()">
-                    <p>caramel coconut cream</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="images/thumbs/spaghetti.jpg" onclick="document.getElementById('spaghetti').play()">
-                    <p>1 2 3 4 5 spaghetti</p>
-                </td>
-                <td>
-                    <img src="images/thumbs/pasta.jpg" onclick="document.getElementById('pasta').play()">
-                    <p>pasta, fishsticks, ketchup, meatloaf</p>
-                </td>
-                <td>
-                    <img src="images/thumbs/uh.jpg" onclick="document.getElementById('uh').play()">
-                    <p>uhh... put it in the pizza</p>
-                </td>
-                <td></td>
-            </tr>
-        </table>
-    </article>
-
-    <footer id="page_footer">inspired by <a href="http://www.youtube.com/watch?v=wusGIl3v044">this.</a></footer>
-</body>
-</html>
+<footer id="page_footer">inspired by <a href="http://www.youtube.com/watch?v=wusGIl3v044">this.</a></footer>
