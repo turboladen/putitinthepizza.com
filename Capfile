@@ -1,3 +1,6 @@
+require 'bundler/capistrano'
+
+
 load 'deploy' if respond_to?(:namespace) # cap2 differentiator
 
 default_run_options[:pty] = true
@@ -5,25 +8,24 @@ default_run_options[:pty] = true
 # be sure to change these
 set :github_user, 'turboladen'
 set :github_application, "putitinthepizza.com"
-set :user, 'stevehea'
-set :domain, 'steveloveless.com'
+set :user, 'putitinthepizza'
+set :domain, 'putitinthepizza.com'
 set :application, 'putitinthepizza'
 
 # the rest should be good
 set :repository,  "git@github.com:#{github_user}/#{github_application}.git"
-set :deploy_to, "/home2/stevehea/public_html/#{application}"  # or whatever path you want to copy it to
+set :deploy_to, "/var/www/#{domain}"
 set :deploy_via, :remote_cache
 #set :deploy_via, :export
 set :scm, 'git'
 set :branch, 'master'
-set :git_shallow_clone, 1
 set :scm_verbose, true
 set :use_sudo, false
 
 # My added options
 ssh_options[:forward_agent] = true
 
-server domain, :app, :web
+server 'steveloveless.com', :app, :web
 
 desc <<-DESC
 A macro-task that updates the code, fixes the symlink, added the symlink
@@ -51,7 +53,7 @@ namespace :deploy do
   task :start do
     puts "    not doing start because not a Rails application."
   end
-  task :stop do 
+  task :stop do
     puts "    not doing stop because not a Rails application."
   end
   task :restart do
