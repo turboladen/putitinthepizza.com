@@ -12,5 +12,4 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-passenger'
   gem 'highline'
-  gem 'puma', '~> 2.7.1'
 end
