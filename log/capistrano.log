@@ -1,0 +1,567 @@
+# Logfile created on 2016-07-03 16:05:29 -0700 by logger.rb/54072
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-03 16:05:29 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-03 16:07:17 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [05b4cbb4] Running /usr/bin/env mkdir -p /tmp/putitinthepizza/ as putitinthepizza@192.241.226.7
+ DEBUG [05b4cbb4] Command: /usr/bin/env mkdir -p /tmp/putitinthepizza/
+  INFO [05b4cbb4] Finished in 4.237 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/putitinthepizza/git-ssh.sh 0.0%
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-03 16:08:15 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [18d9b934] Running /usr/bin/env mkdir -p /tmp/putitinthepizza/ as sloveless@192.241.226.7
+ DEBUG [18d9b934] Command: /usr/bin/env mkdir -p /tmp/putitinthepizza/
+  INFO [18d9b934] Finished in 3.025 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/putitinthepizza/git-ssh.sh 0.0%
+  INFO Uploading /tmp/putitinthepizza/git-ssh.sh 100.0%
+  INFO [d72d77fd] Running /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh as sloveless@192.241.226.7
+ DEBUG [d72d77fd] Command: /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh
+  INFO [d72d77fd] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [9749de18] Running /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git as sloveless@192.241.226.7
+ DEBUG [9749de18] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git )
+ DEBUG [9749de18] 	Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+ DEBUG [9749de18] 	6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/develop
+17942c75d13b2b2ab93ab4e7aa1f9450a7d87ebb	refs/heads/feature/capify
+6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/master
+  INFO [9749de18] Finished in 1.425 seconds with exit status 0 (successful).
+  INFO [3dddc61c] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases as sloveless@192.241.226.7
+ DEBUG [3dddc61c] Command: /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases
+ DEBUG [3dddc61c] 	mkdir: 
+ DEBUG [3dddc61c] 	cannot create directory ‘/var/www/putitinthepizza’
+ DEBUG [3dddc61c] 	: Permission denied
+ DEBUG [3dddc61c] 	
+ DEBUG [3dddc61c] 	mkdir: 
+ DEBUG [3dddc61c] 	cannot create directory ‘/var/www/putitinthepizza’
+ DEBUG [3dddc61c] 	: Permission denied
+ DEBUG [3dddc61c] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-03 16:08:53 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a92ab6ab] Running /usr/bin/env mkdir -p /tmp/putitinthepizza/ as sloveless@192.241.226.7
+ DEBUG [a92ab6ab] Command: /usr/bin/env mkdir -p /tmp/putitinthepizza/
+  INFO [a92ab6ab] Finished in 2.759 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/putitinthepizza/git-ssh.sh 0.0%
+  INFO Uploading /tmp/putitinthepizza/git-ssh.sh 100.0%
+  INFO [6a5baa3a] Running /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh as sloveless@192.241.226.7
+ DEBUG [6a5baa3a] Command: /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh
+  INFO [6a5baa3a] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [d641312f] Running /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git as sloveless@192.241.226.7
+ DEBUG [d641312f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git )
+ DEBUG [d641312f] 	6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/develop
+17942c75d13b2b2ab93ab4e7aa1f9450a7d87ebb	refs/heads/feature/capify
+6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/master
+  INFO [d641312f] Finished in 1.141 seconds with exit status 0 (successful).
+  INFO [c49eb820] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases as sloveless@192.241.226.7
+ DEBUG [c49eb820] Command: /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases
+ DEBUG [c49eb820] 	mkdir: 
+ DEBUG [c49eb820] 	cannot create directory ‘/var/www/putitinthepizza’
+ DEBUG [c49eb820] 	: Permission denied
+ DEBUG [c49eb820] 	
+ DEBUG [c49eb820] 	mkdir: 
+ DEBUG [c49eb820] 	cannot create directory ‘/var/www/putitinthepizza’
+ DEBUG [c49eb820] 	: Permission denied
+ DEBUG [c49eb820] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-03 16:09:42 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [95999b79] Running /usr/bin/env mkdir -p /tmp/putitinthepizza/ as sloveless@192.241.226.7
+ DEBUG [95999b79] Command: /usr/bin/env mkdir -p /tmp/putitinthepizza/
+  INFO [95999b79] Finished in 2.995 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/putitinthepizza/git-ssh.sh 0.0%
+  INFO Uploading /tmp/putitinthepizza/git-ssh.sh 100.0%
+  INFO [7461f209] Running /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh as sloveless@192.241.226.7
+ DEBUG [7461f209] Command: /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh
+  INFO [7461f209] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [411f2d49] Running /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git as sloveless@192.241.226.7
+ DEBUG [411f2d49] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git )
+ DEBUG [411f2d49] 	6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/develop
+17942c75d13b2b2ab93ab4e7aa1f9450a7d87ebb	refs/heads/feature/capify
+6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/master
+  INFO [411f2d49] Finished in 1.070 seconds with exit status 0 (successful).
+  INFO [26c8ba32] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases as sloveless@192.241.226.7
+ DEBUG [26c8ba32] Command: /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases
+  INFO [26c8ba32] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [f6bc24ff] Running [ -f /var/www/putitinthepizza/current/REVISION ] as sloveless@192.241.226.7
+ DEBUG [f6bc24ff] Command: [ -f /var/www/putitinthepizza/current/REVISION ]
+ DEBUG [f6bc24ff] Finished in 0.063 seconds with exit status 1 (failed).
+ DEBUG [e772bdcd] Running [ -f /var/www/putitinthepizza/repo/HEAD ] as sloveless@192.241.226.7
+ DEBUG [e772bdcd] Command: [ -f /var/www/putitinthepizza/repo/HEAD ]
+ DEBUG [e772bdcd] Finished in 0.066 seconds with exit status 1 (failed).
+ DEBUG [0594435b] Running if test ! -d /var/www/putitinthepizza; then echo "Directory does not exist '/var/www/putitinthepizza'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [0594435b] Command: if test ! -d /var/www/putitinthepizza; then echo "Directory does not exist '/var/www/putitinthepizza'" 1>&2; false; fi
+ DEBUG [0594435b] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [8d04d856] Running /usr/bin/env git clone --mirror git@github.com:turboladen/putitinthepizza.com.git /var/www/putitinthepizza/repo as sloveless@192.241.226.7
+ DEBUG [8d04d856] Command: cd /var/www/putitinthepizza && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git clone --mirror git@github.com:turboladen/putitinthepizza.com.git /var/www/putitinthepizza/repo )
+ DEBUG [8d04d856] 	Cloning into bare repository '/var/www/putitinthepizza/repo'...
+  INFO [8d04d856] Finished in 5.233 seconds with exit status 0 (successful).
+ DEBUG [9150c7f1] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [9150c7f1] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [9150c7f1] Finished in 0.061 seconds with exit status 0 (successful).
+  INFO [66b1c733] Running /usr/bin/env git remote update --prune as sloveless@192.241.226.7
+ DEBUG [66b1c733] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [66b1c733] 	Fetching origin
+  INFO [66b1c733] Finished in 1.401 seconds with exit status 0 (successful).
+ DEBUG [51b04fe5] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [51b04fe5] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [51b04fe5] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO [4a714068] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/releases/20160703230949 as sloveless@192.241.226.7
+ DEBUG [4a714068] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env mkdir -p /var/www/putitinthepizza/releases/20160703230949 )
+  INFO [4a714068] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [15eb9f02] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/putitinthepizza/releases/20160703230949 as sloveless@192.241.226.7
+ DEBUG [15eb9f02] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git archive master | tar -x -f - -C /var/www/putitinthepizza/releases/20160703230949 )
+  INFO [15eb9f02] Finished in 0.791 seconds with exit status 0 (successful).
+ DEBUG [4ee4d79b] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [4ee4d79b] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [4ee4d79b] Finished in 0.066 seconds with exit status 0 (successful).
+ DEBUG [b9f34d90] Running /usr/bin/env git rev-list --max-count=1 master as sloveless@192.241.226.7
+ DEBUG [b9f34d90] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [b9f34d90] 	6f678918ba8e572299417fdbec6170ec76711eff
+ DEBUG [b9f34d90] Finished in 0.066 seconds with exit status 0 (successful).
+ DEBUG [03d8a732] Running if test ! -d /var/www/putitinthepizza/releases/20160703230949; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703230949'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [03d8a732] Command: if test ! -d /var/www/putitinthepizza/releases/20160703230949; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703230949'" 1>&2; false; fi
+ DEBUG [03d8a732] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [cc14e34d] Running /usr/bin/env echo "6f678918ba8e572299417fdbec6170ec76711eff" >> REVISION as sloveless@192.241.226.7
+ DEBUG [cc14e34d] Command: cd /var/www/putitinthepizza/releases/20160703230949 && /usr/bin/env echo "6f678918ba8e572299417fdbec6170ec76711eff" >> REVISION
+  INFO [cc14e34d] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [25773520] Running /usr/bin/env ln -s /var/www/putitinthepizza/releases/20160703230949 /var/www/putitinthepizza/releases/current as sloveless@192.241.226.7
+ DEBUG [25773520] Command: /usr/bin/env ln -s /var/www/putitinthepizza/releases/20160703230949 /var/www/putitinthepizza/releases/current
+  INFO [25773520] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [00d9f24d] Running /usr/bin/env mv /var/www/putitinthepizza/releases/current /var/www/putitinthepizza as sloveless@192.241.226.7
+ DEBUG [00d9f24d] Command: /usr/bin/env mv /var/www/putitinthepizza/releases/current /var/www/putitinthepizza
+  INFO [00d9f24d] Finished in 0.065 seconds with exit status 0 (successful).
+ DEBUG [0d49be37] Running /usr/bin/env ls -xtr /var/www/putitinthepizza/releases as sloveless@192.241.226.7
+ DEBUG [0d49be37] Command: /usr/bin/env ls -xtr /var/www/putitinthepizza/releases
+ DEBUG [0d49be37] 	20160703230949
+ DEBUG [0d49be37] Finished in 0.064 seconds with exit status 0 (successful).
+ DEBUG [d6ca468f] Running if test ! -d /var/www/putitinthepizza/releases; then echo "Directory does not exist '/var/www/putitinthepizza/releases'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [d6ca468f] Command: if test ! -d /var/www/putitinthepizza/releases; then echo "Directory does not exist '/var/www/putitinthepizza/releases'" 1>&2; false; fi
+ DEBUG [d6ca468f] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [a6a2d56f] Running /usr/bin/env echo "Branch master (at 6f678918ba8e572299417fdbec6170ec76711eff) deployed as release 20160703230949 by sloveless" >> /var/www/putitinthepizza/revisions.log as sloveless@192.241.226.7
+ DEBUG [a6a2d56f] Command: cd /var/www/putitinthepizza/releases && /usr/bin/env echo "Branch master (at 6f678918ba8e572299417fdbec6170ec76711eff) deployed as release 20160703230949 by sloveless" >> /var/www/putitinthepizza/revisions.log
+  INFO [a6a2d56f] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-03 16:30:00 -0700 cap production bundler:install
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3b211d77] Running if test ! -d /var/www/putitinthepizza/current; then echo "Directory does not exist '/var/www/putitinthepizza/current'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [3b211d77] Command: if test ! -d /var/www/putitinthepizza/current; then echo "Directory does not exist '/var/www/putitinthepizza/current'" 1>&2; false; fi
+ DEBUG [3b211d77] Finished in 3.314 seconds with exit status 0 (successful).
+  INFO [a50b153f] Running /usr/bin/env bundle install --path /var/www/putitinthepizza/shared/bundle --without development test --deployment --quiet as sloveless@192.241.226.7
+ DEBUG [a50b153f] Command: cd /var/www/putitinthepizza/current && /usr/bin/env bundle install --path /var/www/putitinthepizza/shared/bundle --without development test --deployment --quiet
+ DEBUG [a50b153f] 	/usr/bin/env: bundle: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-03 16:30:47 -0700 cap production bundler:install
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4a074093] Running if test ! -d /var/www/putitinthepizza/current; then echo "Directory does not exist '/var/www/putitinthepizza/current'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [4a074093] Command: if test ! -d /var/www/putitinthepizza/current; then echo "Directory does not exist '/var/www/putitinthepizza/current'" 1>&2; false; fi
+ DEBUG [4a074093] Finished in 2.677 seconds with exit status 0 (successful).
+  INFO [95c55e0d] Running /usr/bin/env bundle install --path /var/www/putitinthepizza/shared/bundle --without development test --deployment --quiet as sloveless@192.241.226.7
+ DEBUG [95c55e0d] Command: cd /var/www/putitinthepizza/current && /usr/bin/env bundle install --path /var/www/putitinthepizza/shared/bundle --without development test --deployment --quiet
+ DEBUG [95c55e0d] 	/usr/bin/env: bundle: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-03 16:31:17 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [07de8ae9] Running /usr/bin/env mkdir -p /tmp/putitinthepizza/ as sloveless@192.241.226.7
+ DEBUG [07de8ae9] Command: /usr/bin/env mkdir -p /tmp/putitinthepizza/
+  INFO [07de8ae9] Finished in 3.028 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/putitinthepizza/git-ssh.sh 0.0%
+  INFO Uploading /tmp/putitinthepizza/git-ssh.sh 100.0%
+  INFO [ef84a853] Running /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh as sloveless@192.241.226.7
+ DEBUG [ef84a853] Command: /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh
+  INFO [ef84a853] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO [fef6536a] Running /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git as sloveless@192.241.226.7
+ DEBUG [fef6536a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git )
+ DEBUG [fef6536a] 	Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+ DEBUG [fef6536a] 	6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/develop
+17942c75d13b2b2ab93ab4e7aa1f9450a7d87ebb	refs/heads/feature/capify
+6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/master
+  INFO [fef6536a] Finished in 1.335 seconds with exit status 0 (successful).
+  INFO [961f1cc6] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases as sloveless@192.241.226.7
+ DEBUG [961f1cc6] Command: /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases
+  INFO [961f1cc6] Finished in 0.060 seconds with exit status 0 (successful).
+ DEBUG [d7a4897a] Running [ -f /var/www/putitinthepizza/current/REVISION ] as sloveless@192.241.226.7
+ DEBUG [d7a4897a] Command: [ -f /var/www/putitinthepizza/current/REVISION ]
+ DEBUG [d7a4897a] Finished in 0.059 seconds with exit status 0 (successful).
+ DEBUG [72254308] Running /usr/bin/env cat /var/www/putitinthepizza/current/REVISION 2>/dev/null as sloveless@192.241.226.7
+ DEBUG [72254308] Command: /usr/bin/env cat /var/www/putitinthepizza/current/REVISION 2>/dev/null
+ DEBUG [72254308] 	6f678918ba8e572299417fdbec6170ec76711eff
+ DEBUG [72254308] Finished in 0.057 seconds with exit status 0 (successful).
+ DEBUG [ac2e99e9] Running [ -f /var/www/putitinthepizza/repo/HEAD ] as sloveless@192.241.226.7
+ DEBUG [ac2e99e9] Command: [ -f /var/www/putitinthepizza/repo/HEAD ]
+ DEBUG [ac2e99e9] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/putitinthepizza/repo
+ DEBUG [38feb5ca] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [38feb5ca] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [38feb5ca] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO [ff526480] Running /usr/bin/env git remote update --prune as sloveless@192.241.226.7
+ DEBUG [ff526480] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [ff526480] 	Fetching origin
+  INFO [ff526480] Finished in 1.182 seconds with exit status 0 (successful).
+ DEBUG [ad1e59ea] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [ad1e59ea] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [ad1e59ea] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [213bfa45] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/releases/20160703233124 as sloveless@192.241.226.7
+ DEBUG [213bfa45] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env mkdir -p /var/www/putitinthepizza/releases/20160703233124 )
+  INFO [213bfa45] Finished in 0.062 seconds with exit status 0 (successful).
+  INFO [5092015a] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/putitinthepizza/releases/20160703233124 as sloveless@192.241.226.7
+ DEBUG [5092015a] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git archive master | tar -x -f - -C /var/www/putitinthepizza/releases/20160703233124 )
+  INFO [5092015a] Finished in 1.145 seconds with exit status 0 (successful).
+ DEBUG [a6bcda0a] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [a6bcda0a] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [a6bcda0a] Finished in 0.055 seconds with exit status 0 (successful).
+ DEBUG [1e9c6413] Running /usr/bin/env git rev-list --max-count=1 master as sloveless@192.241.226.7
+ DEBUG [1e9c6413] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [1e9c6413] 	6f678918ba8e572299417fdbec6170ec76711eff
+ DEBUG [1e9c6413] Finished in 0.064 seconds with exit status 0 (successful).
+ DEBUG [565c8877] Running if test ! -d /var/www/putitinthepizza/releases/20160703233124; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703233124'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [565c8877] Command: if test ! -d /var/www/putitinthepizza/releases/20160703233124; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703233124'" 1>&2; false; fi
+ DEBUG [565c8877] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [168778e8] Running /usr/bin/env echo "6f678918ba8e572299417fdbec6170ec76711eff" >> REVISION as sloveless@192.241.226.7
+ DEBUG [168778e8] Command: cd /var/www/putitinthepizza/releases/20160703233124 && /usr/bin/env echo "6f678918ba8e572299417fdbec6170ec76711eff" >> REVISION
+  INFO [168778e8] Finished in 0.065 seconds with exit status 0 (successful).
+ DEBUG [0030046c] Running if test ! -d /var/www/putitinthepizza/releases/20160703233124; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703233124'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [0030046c] Command: if test ! -d /var/www/putitinthepizza/releases/20160703233124; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703233124'" 1>&2; false; fi
+ DEBUG [0030046c] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [fb157601] Running /usr/bin/env bundle install --path /var/www/putitinthepizza/shared/bundle --without development test --deployment --quiet as sloveless@192.241.226.7
+ DEBUG [fb157601] Command: cd /var/www/putitinthepizza/releases/20160703233124 && /usr/bin/env bundle install --path /var/www/putitinthepizza/shared/bundle --without development test --deployment --quiet
+ DEBUG [fb157601] 	/usr/bin/env: 
+ DEBUG [fb157601] 	bundle
+ DEBUG [fb157601] 	: No such file or directory
+ DEBUG [fb157601] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-03 16:32:14 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [db2ab470] Running /usr/bin/env mkdir -p /tmp/putitinthepizza/ as sloveless@192.241.226.7
+ DEBUG [db2ab470] Command: /usr/bin/env mkdir -p /tmp/putitinthepizza/
+  INFO [db2ab470] Finished in 3.238 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/putitinthepizza/git-ssh.sh 0.0%
+  INFO Uploading /tmp/putitinthepizza/git-ssh.sh 100.0%
+  INFO [e0882278] Running /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh as sloveless@192.241.226.7
+ DEBUG [e0882278] Command: /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh
+  INFO [e0882278] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [03aa7858] Running /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git as sloveless@192.241.226.7
+ DEBUG [03aa7858] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git )
+ DEBUG [03aa7858] 	6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/develop
+17942c75d13b2b2ab93ab4e7aa1f9450a7d87ebb	refs/heads/feature/capify
+6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/master
+  INFO [03aa7858] Finished in 1.148 seconds with exit status 0 (successful).
+  INFO [fc6ced70] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases as sloveless@192.241.226.7
+ DEBUG [fc6ced70] Command: /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases
+  INFO [fc6ced70] Finished in 0.064 seconds with exit status 0 (successful).
+ DEBUG [8768fb5b] Running [ -f /var/www/putitinthepizza/current/REVISION ] as sloveless@192.241.226.7
+ DEBUG [8768fb5b] Command: [ -f /var/www/putitinthepizza/current/REVISION ]
+ DEBUG [8768fb5b] Finished in 0.064 seconds with exit status 0 (successful).
+ DEBUG [b0e3d274] Running /usr/bin/env cat /var/www/putitinthepizza/current/REVISION 2>/dev/null as sloveless@192.241.226.7
+ DEBUG [b0e3d274] Command: /usr/bin/env cat /var/www/putitinthepizza/current/REVISION 2>/dev/null
+ DEBUG [b0e3d274] 	6f678918ba8e572299417fdbec6170ec76711eff
+ DEBUG [b0e3d274] Finished in 0.064 seconds with exit status 0 (successful).
+ DEBUG [f56fa6b8] Running [ -f /var/www/putitinthepizza/repo/HEAD ] as sloveless@192.241.226.7
+ DEBUG [f56fa6b8] Command: [ -f /var/www/putitinthepizza/repo/HEAD ]
+ DEBUG [f56fa6b8] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/putitinthepizza/repo
+ DEBUG [fb0911ec] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [fb0911ec] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [fb0911ec] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [cd25a083] Running /usr/bin/env git remote update --prune as sloveless@192.241.226.7
+ DEBUG [cd25a083] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [cd25a083] 	Fetching origin
+  INFO [cd25a083] Finished in 1.267 seconds with exit status 0 (successful).
+ DEBUG [fe5dd00a] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [fe5dd00a] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [fe5dd00a] Finished in 0.062 seconds with exit status 0 (successful).
+  INFO [1f47fcb5] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/releases/20160703233221 as sloveless@192.241.226.7
+ DEBUG [1f47fcb5] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env mkdir -p /var/www/putitinthepizza/releases/20160703233221 )
+  INFO [1f47fcb5] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [66f5dd3c] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/putitinthepizza/releases/20160703233221 as sloveless@192.241.226.7
+ DEBUG [66f5dd3c] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git archive master | tar -x -f - -C /var/www/putitinthepizza/releases/20160703233221 )
+  INFO [66f5dd3c] Finished in 0.823 seconds with exit status 0 (successful).
+ DEBUG [fb66bc23] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [fb66bc23] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [fb66bc23] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [7a6772bf] Running /usr/bin/env git rev-list --max-count=1 master as sloveless@192.241.226.7
+ DEBUG [7a6772bf] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [7a6772bf] 	6f678918ba8e572299417fdbec6170ec76711eff
+ DEBUG [7a6772bf] Finished in 0.065 seconds with exit status 0 (successful).
+ DEBUG [39edb4f8] Running if test ! -d /var/www/putitinthepizza/releases/20160703233221; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703233221'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [39edb4f8] Command: if test ! -d /var/www/putitinthepizza/releases/20160703233221; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703233221'" 1>&2; false; fi
+ DEBUG [39edb4f8] Finished in 0.062 seconds with exit status 0 (successful).
+  INFO [3e93fbf5] Running /usr/bin/env echo "6f678918ba8e572299417fdbec6170ec76711eff" >> REVISION as sloveless@192.241.226.7
+ DEBUG [3e93fbf5] Command: cd /var/www/putitinthepizza/releases/20160703233221 && /usr/bin/env echo "6f678918ba8e572299417fdbec6170ec76711eff" >> REVISION
+  INFO [3e93fbf5] Finished in 0.062 seconds with exit status 0 (successful).
+  INFO [03c70a25] Running /usr/bin/env ln -s /var/www/putitinthepizza/releases/20160703233221 /var/www/putitinthepizza/releases/current as sloveless@192.241.226.7
+ DEBUG [03c70a25] Command: /usr/bin/env ln -s /var/www/putitinthepizza/releases/20160703233221 /var/www/putitinthepizza/releases/current
+  INFO [03c70a25] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO [f6a36615] Running /usr/bin/env mv /var/www/putitinthepizza/releases/current /var/www/putitinthepizza as sloveless@192.241.226.7
+ DEBUG [f6a36615] Command: /usr/bin/env mv /var/www/putitinthepizza/releases/current /var/www/putitinthepizza
+  INFO [f6a36615] Finished in 0.065 seconds with exit status 0 (successful).
+ DEBUG [25811c3e] Running if test ! -d /var/www/putitinthepizza/releases/20160703233221; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703233221'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [25811c3e] Command: if test ! -d /var/www/putitinthepizza/releases/20160703233221; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703233221'" 1>&2; false; fi
+ DEBUG [25811c3e] Finished in 0.066 seconds with exit status 0 (successful).
+ DEBUG [41327a03] Running /usr/bin/env passenger -v as sloveless@192.241.226.7
+ DEBUG [41327a03] Command: cd /var/www/putitinthepizza/releases/20160703233221 && /usr/bin/env passenger -v
+ DEBUG [41327a03] 	/usr/bin/env: passenger: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-03 16:35:45 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [ab3661d5] Running /usr/bin/env which passenger as sloveless@192.241.226.7
+ DEBUG [ab3661d5] Command: /usr/bin/env which passenger
+ DEBUG [ab3661d5] Finished in 3.196 seconds with exit status 1 (failed).
+  INFO [1cb579e1] Running /usr/bin/env mkdir -p /tmp/putitinthepizza/ as sloveless@192.241.226.7
+ DEBUG [1cb579e1] Command: /usr/bin/env mkdir -p /tmp/putitinthepizza/
+  INFO [1cb579e1] Finished in 3.068 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/putitinthepizza/git-ssh.sh 0.0%
+  INFO Uploading /tmp/putitinthepizza/git-ssh.sh 100.0%
+  INFO [faa43362] Running /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh as sloveless@192.241.226.7
+ DEBUG [faa43362] Command: /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh
+  INFO [faa43362] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [4696e9f0] Running /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git as sloveless@192.241.226.7
+ DEBUG [4696e9f0] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git )
+ DEBUG [4696e9f0] 	6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/develop
+17942c75d13b2b2ab93ab4e7aa1f9450a7d87ebb	refs/heads/feature/capify
+6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/master
+  INFO [4696e9f0] Finished in 1.219 seconds with exit status 0 (successful).
+  INFO [27d048f1] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases as sloveless@192.241.226.7
+ DEBUG [27d048f1] Command: /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases
+  INFO [27d048f1] Finished in 0.062 seconds with exit status 0 (successful).
+ DEBUG [98879113] Running [ -f /var/www/putitinthepizza/current/REVISION ] as sloveless@192.241.226.7
+ DEBUG [98879113] Command: [ -f /var/www/putitinthepizza/current/REVISION ]
+ DEBUG [98879113] Finished in 0.058 seconds with exit status 0 (successful).
+ DEBUG [cac187e7] Running /usr/bin/env cat /var/www/putitinthepizza/current/REVISION 2>/dev/null as sloveless@192.241.226.7
+ DEBUG [cac187e7] Command: /usr/bin/env cat /var/www/putitinthepizza/current/REVISION 2>/dev/null
+ DEBUG [cac187e7] 	6f678918ba8e572299417fdbec6170ec76711eff
+ DEBUG [cac187e7] Finished in 0.063 seconds with exit status 0 (successful).
+ DEBUG [25e5c5a8] Running [ -f /var/www/putitinthepizza/repo/HEAD ] as sloveless@192.241.226.7
+ DEBUG [25e5c5a8] Command: [ -f /var/www/putitinthepizza/repo/HEAD ]
+ DEBUG [25e5c5a8] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/putitinthepizza/repo
+ DEBUG [d210568c] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [d210568c] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [d210568c] Finished in 0.061 seconds with exit status 0 (successful).
+  INFO [6347a02a] Running /usr/bin/env git remote update --prune as sloveless@192.241.226.7
+ DEBUG [6347a02a] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [6347a02a] 	Fetching origin
+  INFO [6347a02a] Finished in 1.229 seconds with exit status 0 (successful).
+ DEBUG [00dd526b] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [00dd526b] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [00dd526b] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [5f3d4e04] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/releases/20160703233553 as sloveless@192.241.226.7
+ DEBUG [5f3d4e04] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env mkdir -p /var/www/putitinthepizza/releases/20160703233553 )
+  INFO [5f3d4e04] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [035ff9a0] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/putitinthepizza/releases/20160703233553 as sloveless@192.241.226.7
+ DEBUG [035ff9a0] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git archive master | tar -x -f - -C /var/www/putitinthepizza/releases/20160703233553 )
+  INFO [035ff9a0] Finished in 0.797 seconds with exit status 0 (successful).
+ DEBUG [eeb94d92] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [eeb94d92] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [eeb94d92] Finished in 0.058 seconds with exit status 0 (successful).
+ DEBUG [26399202] Running /usr/bin/env git rev-list --max-count=1 master as sloveless@192.241.226.7
+ DEBUG [26399202] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [26399202] 	6f678918ba8e572299417fdbec6170ec76711eff
+ DEBUG [26399202] Finished in 0.061 seconds with exit status 0 (successful).
+ DEBUG [c95552ab] Running if test ! -d /var/www/putitinthepizza/releases/20160703233553; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703233553'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [c95552ab] Command: if test ! -d /var/www/putitinthepizza/releases/20160703233553; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703233553'" 1>&2; false; fi
+ DEBUG [c95552ab] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [c24fa993] Running /usr/bin/env echo "6f678918ba8e572299417fdbec6170ec76711eff" >> REVISION as sloveless@192.241.226.7
+ DEBUG [c24fa993] Command: cd /var/www/putitinthepizza/releases/20160703233553 && /usr/bin/env echo "6f678918ba8e572299417fdbec6170ec76711eff" >> REVISION
+  INFO [c24fa993] Finished in 0.065 seconds with exit status 0 (successful).
+ DEBUG [b10a444e] Running if test ! -d /var/www/putitinthepizza/releases/20160703233553; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703233553'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [b10a444e] Command: if test ! -d /var/www/putitinthepizza/releases/20160703233553; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703233553'" 1>&2; false; fi
+ DEBUG [b10a444e] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [22b9620d] Running /usr/local/bin/chruby-exec ruby-2.3.1 -- bundle install --path /var/www/putitinthepizza/shared/bundle --without development test --deployment --quiet as sloveless@192.241.226.7
+ DEBUG [22b9620d] Command: cd /var/www/putitinthepizza/releases/20160703233553 && /usr/local/bin/chruby-exec ruby-2.3.1 -- bundle install --path /var/www/putitinthepizza/shared/bundle --without development test --deployment --quiet
+ DEBUG [22b9620d] 	/bin/bash: bundle: command not found
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-03 16:41:41 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [96e9b45c] Running /usr/bin/env which passenger as sloveless@192.241.226.7
+ DEBUG [96e9b45c] Command: /usr/bin/env which passenger
+ DEBUG [96e9b45c] Finished in 2.970 seconds with exit status 1 (failed).
+  INFO [2a4e2cdb] Running /usr/bin/env mkdir -p /tmp/putitinthepizza/ as sloveless@192.241.226.7
+ DEBUG [2a4e2cdb] Command: /usr/bin/env mkdir -p /tmp/putitinthepizza/
+  INFO [2a4e2cdb] Finished in 2.661 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/putitinthepizza/git-ssh.sh 0.0%
+  INFO Uploading /tmp/putitinthepizza/git-ssh.sh 100.0%
+  INFO [128437ac] Running /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh as sloveless@192.241.226.7
+ DEBUG [128437ac] Command: /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh
+  INFO [128437ac] Finished in 0.062 seconds with exit status 0 (successful).
+  INFO [43412903] Running /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git as sloveless@192.241.226.7
+ DEBUG [43412903] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git )
+ DEBUG [43412903] 	6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/develop
+17942c75d13b2b2ab93ab4e7aa1f9450a7d87ebb	refs/heads/feature/capify
+6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/master
+  INFO [43412903] Finished in 1.192 seconds with exit status 0 (successful).
+  INFO [addaab0c] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases as sloveless@192.241.226.7
+ DEBUG [addaab0c] Command: /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases
+  INFO [addaab0c] Finished in 0.062 seconds with exit status 0 (successful).
+ DEBUG [f31dcb69] Running [ -f /var/www/putitinthepizza/current/REVISION ] as sloveless@192.241.226.7
+ DEBUG [f31dcb69] Command: [ -f /var/www/putitinthepizza/current/REVISION ]
+ DEBUG [f31dcb69] Finished in 0.061 seconds with exit status 0 (successful).
+ DEBUG [1e2c3cf6] Running /usr/bin/env cat /var/www/putitinthepizza/current/REVISION 2>/dev/null as sloveless@192.241.226.7
+ DEBUG [1e2c3cf6] Command: /usr/bin/env cat /var/www/putitinthepizza/current/REVISION 2>/dev/null
+ DEBUG [1e2c3cf6] 	6f678918ba8e572299417fdbec6170ec76711eff
+ DEBUG [1e2c3cf6] Finished in 0.061 seconds with exit status 0 (successful).
+ DEBUG [2efd054a] Running [ -f /var/www/putitinthepizza/repo/HEAD ] as sloveless@192.241.226.7
+ DEBUG [2efd054a] Command: [ -f /var/www/putitinthepizza/repo/HEAD ]
+ DEBUG [2efd054a] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/putitinthepizza/repo
+ DEBUG [6221f3ae] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [6221f3ae] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [6221f3ae] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [c2b38e23] Running /usr/bin/env git remote update --prune as sloveless@192.241.226.7
+ DEBUG [c2b38e23] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [c2b38e23] 	Fetching origin
+  INFO [c2b38e23] Finished in 1.219 seconds with exit status 0 (successful).
+ DEBUG [8e62b206] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [8e62b206] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [8e62b206] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO [6df26399] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/releases/20160703234149 as sloveless@192.241.226.7
+ DEBUG [6df26399] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env mkdir -p /var/www/putitinthepizza/releases/20160703234149 )
+  INFO [6df26399] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO [7acf34c0] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/putitinthepizza/releases/20160703234149 as sloveless@192.241.226.7
+ DEBUG [7acf34c0] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git archive master | tar -x -f - -C /var/www/putitinthepizza/releases/20160703234149 )
+  INFO [7acf34c0] Finished in 0.811 seconds with exit status 0 (successful).
+ DEBUG [547817f4] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [547817f4] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [547817f4] Finished in 0.058 seconds with exit status 0 (successful).
+ DEBUG [a4d74999] Running /usr/bin/env git rev-list --max-count=1 master as sloveless@192.241.226.7
+ DEBUG [a4d74999] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [a4d74999] 	6f678918ba8e572299417fdbec6170ec76711eff
+ DEBUG [a4d74999] Finished in 0.058 seconds with exit status 0 (successful).
+ DEBUG [af4f69b1] Running if test ! -d /var/www/putitinthepizza/releases/20160703234149; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703234149'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [af4f69b1] Command: if test ! -d /var/www/putitinthepizza/releases/20160703234149; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703234149'" 1>&2; false; fi
+ DEBUG [af4f69b1] Finished in 0.062 seconds with exit status 0 (successful).
+  INFO [ae177150] Running /usr/bin/env echo "6f678918ba8e572299417fdbec6170ec76711eff" >> REVISION as sloveless@192.241.226.7
+ DEBUG [ae177150] Command: cd /var/www/putitinthepizza/releases/20160703234149 && /usr/bin/env echo "6f678918ba8e572299417fdbec6170ec76711eff" >> REVISION
+  INFO [ae177150] Finished in 0.063 seconds with exit status 0 (successful).
+ DEBUG [e165f74e] Running if test ! -d /var/www/putitinthepizza/releases/20160703234149; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703234149'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [e165f74e] Command: if test ! -d /var/www/putitinthepizza/releases/20160703234149; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703234149'" 1>&2; false; fi
+ DEBUG [e165f74e] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [11b40db3] Running /usr/local/bin/chruby-exec ruby-2.3.1 -- bundle install --path /var/www/putitinthepizza/shared/bundle --without development test --deployment --quiet as sloveless@192.241.226.7
+ DEBUG [11b40db3] Command: cd /var/www/putitinthepizza/releases/20160703234149 && /usr/local/bin/chruby-exec ruby-2.3.1 -- bundle install --path /var/www/putitinthepizza/shared/bundle --without development test --deployment --quiet
+ DEBUG [11b40db3] 	zsh:1: command not found: chruby
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-03 16:42:44 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [a914aba2] Running /usr/bin/env which passenger as sloveless@192.241.226.7
+ DEBUG [a914aba2] Command: /usr/bin/env which passenger
+ DEBUG [a914aba2] Finished in 2.576 seconds with exit status 1 (failed).
+  INFO [feb911f6] Running /usr/bin/env mkdir -p /tmp/putitinthepizza/ as sloveless@192.241.226.7
+ DEBUG [feb911f6] Command: /usr/bin/env mkdir -p /tmp/putitinthepizza/
+  INFO [feb911f6] Finished in 2.484 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/putitinthepizza/git-ssh.sh 0.0%
+  INFO Uploading /tmp/putitinthepizza/git-ssh.sh 100.0%
+  INFO [d088b068] Running /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh as sloveless@192.241.226.7
+ DEBUG [d088b068] Command: /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh
+  INFO [d088b068] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [677f6a8a] Running /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git as sloveless@192.241.226.7
+ DEBUG [677f6a8a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git )
+ DEBUG [677f6a8a] 	6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/develop
+17942c75d13b2b2ab93ab4e7aa1f9450a7d87ebb	refs/heads/feature/capify
+6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/master
+  INFO [677f6a8a] Finished in 1.331 seconds with exit status 0 (successful).
+  INFO [fa2cc49a] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases as sloveless@192.241.226.7
+ DEBUG [fa2cc49a] Command: /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases
+  INFO [fa2cc49a] Finished in 0.117 seconds with exit status 0 (successful).
+ DEBUG [cacf0b65] Running [ -f /var/www/putitinthepizza/current/REVISION ] as sloveless@192.241.226.7
+ DEBUG [cacf0b65] Command: [ -f /var/www/putitinthepizza/current/REVISION ]
+ DEBUG [cacf0b65] Finished in 0.119 seconds with exit status 0 (successful).
+ DEBUG [47805de3] Running /usr/bin/env cat /var/www/putitinthepizza/current/REVISION 2>/dev/null as sloveless@192.241.226.7
+ DEBUG [47805de3] Command: /usr/bin/env cat /var/www/putitinthepizza/current/REVISION 2>/dev/null
+ DEBUG [47805de3] 	6f678918ba8e572299417fdbec6170ec76711eff
+ DEBUG [47805de3] Finished in 0.121 seconds with exit status 0 (successful).
+ DEBUG [454a9479] Running [ -f /var/www/putitinthepizza/repo/HEAD ] as sloveless@192.241.226.7
+ DEBUG [454a9479] Command: [ -f /var/www/putitinthepizza/repo/HEAD ]
+ DEBUG [454a9479] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/putitinthepizza/repo
+ DEBUG [ab5ed594] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [ab5ed594] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [ab5ed594] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [4dd7115c] Running /usr/bin/env git remote update --prune as sloveless@192.241.226.7
+ DEBUG [4dd7115c] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [4dd7115c] 	Fetching origin
+  INFO [4dd7115c] Finished in 1.249 seconds with exit status 0 (successful).
+ DEBUG [33e3606e] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [33e3606e] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [33e3606e] Finished in 0.116 seconds with exit status 0 (successful).
+  INFO [85e40b32] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/releases/20160703234251 as sloveless@192.241.226.7
+ DEBUG [85e40b32] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env mkdir -p /var/www/putitinthepizza/releases/20160703234251 )
+  INFO [85e40b32] Finished in 0.125 seconds with exit status 0 (successful).
+  INFO [3e7f7b1a] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/putitinthepizza/releases/20160703234251 as sloveless@192.241.226.7
+ DEBUG [3e7f7b1a] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git archive master | tar -x -f - -C /var/www/putitinthepizza/releases/20160703234251 )
+  INFO [3e7f7b1a] Finished in 0.984 seconds with exit status 0 (successful).
+ DEBUG [5d7064aa] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [5d7064aa] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [5d7064aa] Finished in 0.126 seconds with exit status 0 (successful).
+ DEBUG [f7271e7e] Running /usr/bin/env git rev-list --max-count=1 master as sloveless@192.241.226.7
+ DEBUG [f7271e7e] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [f7271e7e] 	6f678918ba8e572299417fdbec6170ec76711eff
+ DEBUG [f7271e7e] Finished in 0.120 seconds with exit status 0 (successful).
+ DEBUG [fc287000] Running if test ! -d /var/www/putitinthepizza/releases/20160703234251; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703234251'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [fc287000] Command: if test ! -d /var/www/putitinthepizza/releases/20160703234251; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703234251'" 1>&2; false; fi
+ DEBUG [fc287000] Finished in 0.118 seconds with exit status 0 (successful).
+  INFO [472791f6] Running /usr/bin/env echo "6f678918ba8e572299417fdbec6170ec76711eff" >> REVISION as sloveless@192.241.226.7
+ DEBUG [472791f6] Command: cd /var/www/putitinthepizza/releases/20160703234251 && /usr/bin/env echo "6f678918ba8e572299417fdbec6170ec76711eff" >> REVISION
+  INFO [472791f6] Finished in 0.116 seconds with exit status 0 (successful).
+ DEBUG [ea434dd6] Running if test ! -d /var/www/putitinthepizza/releases/20160703234251; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703234251'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [ea434dd6] Command: if test ! -d /var/www/putitinthepizza/releases/20160703234251; then echo "Directory does not exist '/var/www/putitinthepizza/releases/20160703234251'" 1>&2; false; fi
+ DEBUG [ea434dd6] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO [aa546a88] Running /usr/local/bin/chruby-exec ruby-2.3.1 -- bundle install --path /var/www/putitinthepizza/shared/bundle --without development test --deployment --quiet as sloveless@192.241.226.7
+ DEBUG [aa546a88] Command: cd /var/www/putitinthepizza/releases/20160703234251 && /usr/local/bin/chruby-exec ruby-2.3.1 -- bundle install --path /var/www/putitinthepizza/shared/bundle --without development test --deployment --quiet
+ DEBUG [aa546a88] 	Your Ruby version is 2.3.1, but your Gemfile specified 2.1.0
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-03 16:43:41 -0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [0f772ad4] Running /usr/bin/env which passenger as sloveless@192.241.226.7
+ DEBUG [0f772ad4] Command: /usr/bin/env which passenger
+ DEBUG [0f772ad4] Finished in 3.334 seconds with exit status 1 (failed).
+  INFO [d27efc4d] Running /usr/bin/env mkdir -p /tmp/putitinthepizza/ as sloveless@192.241.226.7
+ DEBUG [d27efc4d] Command: /usr/bin/env mkdir -p /tmp/putitinthepizza/
+  INFO [d27efc4d] Finished in 2.759 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/putitinthepizza/git-ssh.sh 0.0%
+  INFO Uploading /tmp/putitinthepizza/git-ssh.sh 100.0%
+  INFO [82e9f901] Running /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh as sloveless@192.241.226.7
+ DEBUG [82e9f901] Command: /usr/bin/env chmod +rx /tmp/putitinthepizza/git-ssh.sh
+  INFO [82e9f901] Finished in 0.126 seconds with exit status 0 (successful).
+  INFO [a54e74a4] Running /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git as sloveless@192.241.226.7
+ DEBUG [a54e74a4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:turboladen/putitinthepizza.com.git )
+ DEBUG [a54e74a4] 	6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/develop
+17942c75d13b2b2ab93ab4e7aa1f9450a7d87ebb	refs/heads/feature/capify
+6f678918ba8e572299417fdbec6170ec76711eff	refs/heads/master
+  INFO [a54e74a4] Finished in 1.280 seconds with exit status 0 (successful).
+  INFO [64bb0ef4] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases as sloveless@192.241.226.7
+ DEBUG [64bb0ef4] Command: /usr/bin/env mkdir -p /var/www/putitinthepizza/shared /var/www/putitinthepizza/releases
+  INFO [64bb0ef4] Finished in 0.120 seconds with exit status 0 (successful).
+ DEBUG [d90c6df5] Running [ -f /var/www/putitinthepizza/current/REVISION ] as sloveless@192.241.226.7
+ DEBUG [d90c6df5] Command: [ -f /var/www/putitinthepizza/current/REVISION ]
+ DEBUG [d90c6df5] Finished in 0.116 seconds with exit status 0 (successful).
+ DEBUG [0b756b16] Running /usr/bin/env cat /var/www/putitinthepizza/current/REVISION 2>/dev/null as sloveless@192.241.226.7
+ DEBUG [0b756b16] Command: /usr/bin/env cat /var/www/putitinthepizza/current/REVISION 2>/dev/null
+ DEBUG [0b756b16] 	6f678918ba8e572299417fdbec6170ec76711eff
+ DEBUG [0b756b16] Finished in 0.125 seconds with exit status 0 (successful).
+ DEBUG [a41817c5] Running [ -f /var/www/putitinthepizza/repo/HEAD ] as sloveless@192.241.226.7
+ DEBUG [a41817c5] Command: [ -f /var/www/putitinthepizza/repo/HEAD ]
+ DEBUG [a41817c5] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/putitinthepizza/repo
+ DEBUG [348049d5] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [348049d5] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [348049d5] Finished in 0.143 seconds with exit status 0 (successful).
+  INFO [d64518b4] Running /usr/bin/env git remote update --prune as sloveless@192.241.226.7
+ DEBUG [d64518b4] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [d64518b4] 	Fetching origin
+  INFO [d64518b4] Finished in 1.114 seconds with exit status 0 (successful).
+ DEBUG [ee4d22b4] Running if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi as sloveless@192.241.226.7
+ DEBUG [ee4d22b4] Command: if test ! -d /var/www/putitinthepizza/repo; then echo "Directory does not exist '/var/www/putitinthepizza/repo'" 1>&2; false; fi
+ DEBUG [ee4d22b4] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [9ce7feaf] Running /usr/bin/env mkdir -p /var/www/putitinthepizza/releases/20160703234350 as sloveless@192.241.226.7
+ DEBUG [9ce7feaf] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env mkdir -p /var/www/putitinthepizza/releases/20160703234350 )
+  INFO [9ce7feaf] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [59bbf0ce] Running /usr/bin/env git archive capify | tar -x -f - -C /var/www/putitinthepizza/releases/20160703234350 as sloveless@192.241.226.7
+ DEBUG [59bbf0ce] Command: cd /var/www/putitinthepizza/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/putitinthepizza/git-ssh.sh" ; /usr/bin/env git archive capify | tar -x -f - -C /var/www/putitinthepizza/releases/20160703234350 )
+ DEBUG [59bbf0ce] 	fatal: Not a valid object name
+ DEBUG [59bbf0ce] 	tar: 
+ DEBUG [59bbf0ce] 	This does not look like a tar archive
+ DEBUG [59bbf0ce] 	
+ DEBUG [59bbf0ce] 	tar: 
+ DEBUG [59bbf0ce] 	Exiting with failure status due to previous errors
+ DEBUG [59bbf0ce] 	
