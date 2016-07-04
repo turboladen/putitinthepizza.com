@@ -37,9 +37,6 @@ set :repo_url, 'git@github.com:turboladen/putitinthepizza.com.git'
 
 set :chruby_ruby, 'ruby-2.3.1'
 
-# Passenger setup
-set :passenger_restart_with_sudo, true
-
 namespace :deploy do
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
