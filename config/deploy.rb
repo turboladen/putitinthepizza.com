@@ -3,7 +3,6 @@ lock '3.5.0'
 
 set :application, 'putitinthepizza'
 set :repo_url, 'git@github.com:turboladen/putitinthepizza.com.git'
-set :branch, 'capify'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
