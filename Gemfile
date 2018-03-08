@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'sinatra', '1.4.7'
+gem 'sinatra', '2.0.1'
 
 group :development do
   gem 'capistrano', '~> 3.5'
