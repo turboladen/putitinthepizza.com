@@ -8,4 +8,8 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-passenger'
   gem 'highline'
+
+  # For ssh-ed25519 support for capistrano
+  gem 'rbnacl', '>=3.2', '< 5.0'
+  gem 'bcrypt_pbkdf'
 end
