@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'sinatra'
 
 get '/' do
@@ -12,7 +14,7 @@ get '/' do
     { file: 'caramel', name: 'caramel coconut cream' },
     { file: 'spaghetti', name: '1 2 3 4 5 spaghetti' },
     { file: 'pasta', name: 'pasta, fishsticks, ketchup, meatloaf' },
-    { file: 'uh', name: 'uhh... put it in the pizza' },
+    { file: 'uh', name: 'uhh... put it in the pizza' }
   ]
 
   erb :index
