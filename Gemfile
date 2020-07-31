@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'sinatra', '2.0.1'
+gem 'sinatra', '2.0.2'
 
 group :development do
   gem 'capistrano', '~> 3.5'

@@ -27,16 +27,16 @@ GEM
       net-ssh (>= 2.6.5, < 7.0.0)
     net-ssh (6.1.0)
     rack (2.2.3)
-    rack-protection (2.0.1)
+    rack-protection (2.0.2)
       rack
     rake (13.0.1)
     rbnacl (4.0.2)
       ffi
     ruby2_keywords (0.0.2)
-    sinatra (2.0.1)
+    sinatra (2.0.2)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.1)
+      rack-protection (= 2.0.2)
       tilt (~> 2.0)
     sshkit (1.21.0)
       net-scp (>= 1.1.2)
@@ -54,7 +54,7 @@ DEPENDENCIES
   capistrano-passenger
   highline
   rbnacl (>= 3.2, < 5.0)
-  sinatra (= 2.0.1)
+  sinatra (= 2.0.2)
 
 BUNDLED WITH
    1.17.2
