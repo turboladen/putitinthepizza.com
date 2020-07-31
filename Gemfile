@@ -12,6 +12,6 @@ group :development do
   gem 'highline'
 
   # For ssh-ed25519 support for capistrano
-  gem 'bcrypt_pbkdf'
-  gem 'rbnacl', '>=3.2', '< 5.0'
+  gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'
+  gem 'ed25519', '>= 1.2', '< 2.0'
 end

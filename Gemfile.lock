@@ -17,7 +17,7 @@ GEM
     capistrano-passenger (0.2.0)
       capistrano (~> 3.0)
     concurrent-ruby (1.1.6)
-    ffi (1.13.1)
+    ed25519 (1.2.4)
     highline (2.0.3)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
@@ -30,8 +30,6 @@ GEM
     rack-protection (2.0.2)
       rack
     rake (13.0.1)
-    rbnacl (4.0.2)
-      ffi
     ruby2_keywords (0.0.2)
     sinatra (2.0.2)
       mustermann (~> 1.0)
@@ -47,14 +45,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bcrypt_pbkdf
+  bcrypt_pbkdf (>= 1.0, < 2.0)
   capistrano (~> 3.5)
   capistrano-bundler
   capistrano-chruby
   capistrano-passenger
+  ed25519 (>= 1.2, < 2.0)
   highline
-  rbnacl (>= 3.2, < 5.0)
   sinatra (= 2.0.2)
 
 BUNDLED WITH
-   1.17.2
+   2.1.4

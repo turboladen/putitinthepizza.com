@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # config valid only for current version of Capistrano
-lock '3.10.1'
+lock '3.14.1'
 
 set :application, 'putitinthepizza'
 set :repo_url, 'git@github.com:turboladen/putitinthepizza.com.git'
