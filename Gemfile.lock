@@ -46,8 +46,8 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt_pbkdf (>= 1.0, < 2.0)
-  capistrano (~> 3.5)
-  capistrano-bundler
+  capistrano (~> 3.6)
+  capistrano-bundler (~> 2.0)
   capistrano-chruby
   capistrano-passenger
   ed25519 (>= 1.2, < 2.0)

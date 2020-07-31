@@ -37,7 +37,11 @@ set :repo_url, 'git@github.com:turboladen/putitinthepizza.com.git'
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
-set :chruby_ruby, 'ruby-2.3.1'
+# For capistrano-bundler
+append :linked_dirs, '.bundle'
+
+# For chruby
+set :chruby_ruby, 'ruby-2.6.6'
 
 namespace :deploy do
   after :restart, :clear_cache do
