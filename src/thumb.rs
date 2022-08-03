@@ -98,6 +98,7 @@ impl Props {
     }
 }
 
+#[derive(Clone, Copy)]
 enum AudioFileType {
     Ogg,
     Mp3,
