@@ -6,7 +6,7 @@ article {
 }
 
 body {
-    background-image: url('../images/full_screen/full_pizza.jpeg');
+    background-image: url('full_pizza.jpeg');
     background-position: center top;
     font-family: Andale Mono, monospace;
 }
