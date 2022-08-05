@@ -1,0 +1,4 @@
+# putitinthepizza.com
+
+User-agent: *
+Allow: /
