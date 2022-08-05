@@ -3,9 +3,8 @@ name: Build and deploy
 
 on:
   push:
-    # Doing all branches until I get it working.
-    # branches:
-      # - "master"
+    branches:
+      - "master"
   workflow_dispatch:
 
 env:
