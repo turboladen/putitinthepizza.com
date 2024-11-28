@@ -16,23 +16,8 @@
 #[allow(clippy::redundant_pub_crate)]
 mod thumb;
 
+use thumb::*;
 use yew::prelude::*;
-
-use crate::thumb::Thumb;
-
-const NAMES: [&str; 11] = [
-    "gimme_pizza",
-    "hey_are_you_ready_to_play",
-    "p-i-z-z-a",
-    "um_did_i_happen_to_say",
-    "finger_lickin",
-    "whipped_cream",
-    "pizza_pie",
-    "caramel",
-    "spaghetti",
-    "pasta",
-    "uh",
-];
 
 #[function_component]
 fn App() -> Html {
@@ -46,22 +31,13 @@ fn App() -> Html {
     <article id="page_content">
         <table>
             <tr>
-                <Thumb name={ NAMES[0] } text="gimme pizza" />
-                <Thumb name={ NAMES[1] } text="are you ready?" />
-                <Thumb name={ NAMES[2] } text="p-i-z-z-a" />
-                <Thumb name={ NAMES[3] } text="did i happen to say?" />
+                <GimmePizza /> <AreYouReady /> <PIZZA /> <UmDidIHappenToSay />
             </tr>
             <tr>
-                <Thumb name={ NAMES[4] } text="finger lickin'" />
-                <Thumb name={ NAMES[5] } text="whipped cream pourin'" />
-                <Thumb name={ NAMES[6] } text="fly fly pizza pie" />
-                <Thumb name={ NAMES[7] } text="caramel coconut cream" />
+                <FingerLickin /> <WhippedCream /> <FlyFlyPizzaPie /> <CaramelCoconutCream />
             </tr>
             <tr>
-                <Thumb name={ NAMES[8] } text="1 2 3 4 5 spaghetti" />
-                <Thumb name={ NAMES[9] } text="pasta, fishsticks, ketchup, meatloaf" />
-                <Thumb name={ NAMES[10] } text="uhh... put it in the pizza" />
-                <td></td>
+                <Spaghetti /> <Pasta /> <Uh /> <td></td>
             </tr>
         </table>
     </article>
