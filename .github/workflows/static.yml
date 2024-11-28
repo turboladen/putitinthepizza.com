@@ -13,6 +13,9 @@ on:
         default: "master"
         type: string
 
+env:
+  TRUNK_VERSION: "0.21.4"
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -41,8 +44,12 @@ jobs:
         with:
           ref: ${{ inputs.branch }}
 
+      - name: rustup add wasm32-unknown-unknown
+        run: rustup target add wasm32-unknown-unknown
+      - name: Prep the Rust cache
+        uses: Swatinem/rust-cache@v2
       - name: Install trunk
-        run: cargo install --locked trunk
+        run: cargo install --locked trunk@${TRUNK_VERSION}
       - name: Build (trunk)
         run: trunk build --release
 
