@@ -16,8 +16,9 @@
 #[allow(clippy::redundant_pub_crate)]
 mod thumb;
 
-use crate::thumb::Thumb;
 use yew::prelude::*;
+
+use crate::thumb::Thumb;
 
 const NAMES: [&str; 11] = [
     "gimme_pizza",
@@ -33,56 +34,46 @@ const NAMES: [&str; 11] = [
     "uh",
 ];
 
-struct App;
+#[function_component]
+fn App() -> Html {
+    html! {
+    <>
+    <header id="page_header">
+        <h1>{ "put it in the pizza." }</h1>
+        <p>{ "(click a pic)" }</p>
+    </header>
 
-impl Component for App {
-    type Message = ();
-    type Properties = ();
+    <article id="page_content">
+        <table>
+            <tr>
+                <Thumb name={ NAMES[0] } text="gimme pizza" />
+                <Thumb name={ NAMES[1] } text="are you ready?" />
+                <Thumb name={ NAMES[2] } text="p-i-z-z-a" />
+                <Thumb name={ NAMES[3] } text="did i happen to say?" />
+            </tr>
+            <tr>
+                <Thumb name={ NAMES[4] } text="finger lickin'" />
+                <Thumb name={ NAMES[5] } text="whipped cream pourin'" />
+                <Thumb name={ NAMES[6] } text="fly fly pizza pie" />
+                <Thumb name={ NAMES[7] } text="caramel coconut cream" />
+            </tr>
+            <tr>
+                <Thumb name={ NAMES[8] } text="1 2 3 4 5 spaghetti" />
+                <Thumb name={ NAMES[9] } text="pasta, fishsticks, ketchup, meatloaf" />
+                <Thumb name={ NAMES[10] } text="uhh... put it in the pizza" />
+                <td></td>
+            </tr>
+        </table>
+    </article>
 
-    fn create(_ctx: &Context<Self>) -> Self {
-        Self
-    }
-
-    fn view(&self, _ctx: &Context<Self>) -> Html {
-        html! {
-        <>
-        <header id="page_header">
-            <h1>{ "put it in the pizza." }</h1>
-            <p>{ "(click a pic)" }</p>
-        </header>
-
-        <article id="page_content">
-            <table>
-                <tr>
-                    <Thumb name={ NAMES[0] } text="gimme pizza" />
-                    <Thumb name={ NAMES[1] } text="are you ready?" />
-                    <Thumb name={ NAMES[2] } text="p-i-z-z-a" />
-                    <Thumb name={ NAMES[3] } text="did i happen to say?" />
-                </tr>
-                <tr>
-                    <Thumb name={ NAMES[4] } text="finger lickin'" />
-                    <Thumb name={ NAMES[5] } text="whipped cream pourin'" />
-                    <Thumb name={ NAMES[6] } text="fly fly pizza pie" />
-                    <Thumb name={ NAMES[7] } text="caramel coconut cream" />
-                </tr>
-                <tr>
-                    <Thumb name={ NAMES[8] } text="1 2 3 4 5 spaghetti" />
-                    <Thumb name={ NAMES[9] } text="pasta, fishsticks, ketchup, meatloaf" />
-                    <Thumb name={ NAMES[10] } text="uhh... put it in the pizza" />
-                    <td></td>
-                </tr>
-            </table>
-        </article>
-
-        <footer id="page_footer">
-            { "inspired by" }
-            <a href="http://www.youtube.com/watch?v=wusGIl3v044">{ "this." }</a>
-        </footer>
-            </>
-        }
+    <footer id="page_footer">
+        { "inspired by" }
+        <a href="http://www.youtube.com/watch?v=wusGIl3v044">{ "this." }</a>
+    </footer>
+        </>
     }
 }
 
 fn main() {
-    yew::start_app::<App>();
+    yew::Renderer::<App>::new().render();
 }
