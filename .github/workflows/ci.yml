@@ -1,0 +1,27 @@
+---
+name: CI
+
+on:
+  push:
+
+env:
+  TRUNK_VERSION: "0.21.4"
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: rustup add wasm32-unknown-unknown
+        run: rustup target add wasm32-unknown-unknown
+
+      - name: Prep the Rust cache
+        uses: Swatinem/rust-cache@v2
+
+      - name: Install trunk
+        run: cargo install --locked trunk@${TRUNK_VERSION}
+      -
+        name: Build the app
+        run: trunk build
