@@ -4,11 +4,8 @@ name: CI
 on:
   push:
 
-env:
-  TRUNK_VERSION: "0.21.4"
-
 jobs:
-  build_and_deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -21,7 +18,9 @@ jobs:
         uses: Swatinem/rust-cache@v2
 
       - name: Install trunk
-        run: cargo install --locked trunk@${TRUNK_VERSION}
-      -
-        name: Build the app
+        uses: jetli/trunk-action@v0.5.0
+        with:
+          version: "v0.21.4"
+
+      - name: Build the app
         run: trunk build
