@@ -49,8 +49,8 @@ jobs:
       - name: rustup add wasm32-unknown-unknown
         run: rustup target add wasm32-unknown-unknown
 
-      - name: Prep the Rust cache
-        uses: Swatinem/rust-cache@v2
+      # - name: Prep the Rust cache
+      #   uses: Swatinem/rust-cache@v2
       - name: Build (trunk)
         run: |
           trunk build \
