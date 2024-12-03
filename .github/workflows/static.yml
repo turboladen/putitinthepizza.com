@@ -52,7 +52,10 @@ jobs:
       - name: Prep the Rust cache
         uses: Swatinem/rust-cache@v2
       - name: Build (trunk)
-        run: trunk build --release
+        run: |
+          trunk build \
+            --release \
+            --public-url "https://turboladen.github.io/putitinthepizza.com/"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
