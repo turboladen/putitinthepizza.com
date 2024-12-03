@@ -54,15 +54,14 @@ jobs:
       - name: Build (trunk)
         run: trunk build --release
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
 
-      # - name: Setup Pages
-      #   uses: actions/configure-pages@v5
-      #
       # - name: Upload artifact
       #   uses: actions/upload-pages-artifact@v3
       #   with:
