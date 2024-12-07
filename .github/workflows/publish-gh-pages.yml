@@ -53,9 +53,7 @@ jobs:
       #   uses: Swatinem/rust-cache@v2
       - name: Build (trunk)
         run: |
-          trunk build \
-            --release \
-            --public-url "https://turboladen.github.io/putitinthepizza.com/" \
+          trunk build --release \
           && cp CNAME build/CNAME
 
       - name: Setup Pages
