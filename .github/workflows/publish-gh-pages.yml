@@ -54,7 +54,7 @@ jobs:
       - name: Build (trunk)
         run: |
           trunk build --release \
-          && cp CNAME build/CNAME
+          && cp CNAME dist/CNAME
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
