@@ -1,10 +1,64 @@
 use js_sys::Promise;
 use wasm_bindgen::JsValue;
-use web_sys::console;
 use web_sys::HtmlMediaElement;
 use yew::prelude::*;
 
-pub(crate) struct Thumb {
+#[function_component]
+pub(crate) fn GimmePizza() -> Html {
+    html! { <Thumb name="gimme_pizza" text="gimme_pizza" /> }
+}
+
+#[function_component]
+pub(crate) fn AreYouReady() -> Html {
+    html! { <Thumb name="hey_are_you_ready_to_play" text="are you ready?" /> }
+}
+
+#[function_component]
+pub(crate) fn PIZZA() -> Html {
+    html! { <Thumb name="p-i-z-z-a" text="p-i-z-z-a" /> }
+}
+
+#[function_component]
+pub(crate) fn UmDidIHappenToSay() -> Html {
+    html! { <Thumb name="um_did_i_happen_to_say" text="did i happen to say?" /> }
+}
+
+#[function_component]
+pub(crate) fn FingerLickin() -> Html {
+    html! { <Thumb name="finger_lickin" text="finger lickin'" /> }
+}
+
+#[function_component]
+pub(crate) fn WhippedCream() -> Html {
+    html! { <Thumb name="whipped_cream" text="whipped cream pourin'" /> }
+}
+
+#[function_component]
+pub(crate) fn FlyFlyPizzaPie() -> Html {
+    html! { <Thumb name="pizza_pie" text="fly fly pizza pie" /> }
+}
+
+#[function_component]
+pub(crate) fn CaramelCoconutCream() -> Html {
+    html! { <Thumb name="caramel" text="caramel coconut cream" /> }
+}
+
+#[function_component]
+pub(crate) fn Spaghetti() -> Html {
+    html! { <Thumb name="spaghetti" text="1 2 3 4 5 spaghetti" /> }
+}
+
+#[function_component]
+pub(crate) fn Pasta() -> Html {
+    html! { <Thumb name="pasta" text="pasta, fishsticks, ketchup, meatloaf" /> }
+}
+
+#[function_component]
+pub(crate) fn Uh() -> Html {
+    html! { <Thumb name="uh" text="uhh... put it in the pizza" /> }
+}
+
+struct Thumb {
     audio_ref: NodeRef,
 }
 
@@ -41,10 +95,7 @@ impl Component for Thumb {
     }
 
     fn view(&self, ctx: &Context<Self>) -> Html {
-        let onclick = ctx.link().callback(|_| {
-            console::debug_1(&JsValue::from_str("hi"));
-            Msg::PlayRequest
-        });
+        let onclick = ctx.link().callback(|_| Msg::PlayRequest);
 
         html! {
             <td>
