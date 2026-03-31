@@ -57,7 +57,7 @@ jobs:
           && cp CNAME dist/CNAME
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       # - name: Deploy
       #   uses: peaceiris/actions-gh-pages@v4
       #   with:
